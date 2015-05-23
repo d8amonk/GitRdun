@@ -1,2 +1,5 @@
-# GitRdun
-GitRdun
+## Purpose:
+
+## Direction:
+
+## Motivation:
