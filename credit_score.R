@@ -26,11 +26,11 @@ testing <- setdiff(1:n.points, training)
 test <- subset(data[testing,], select = c(age, income))
 
 # subset of rows from the training set
-cl <- data$credit[training]
+tst_l <- data$credit[training]
 # subset of rows we are WITHHOLDING as the test set
-tl <- data$credit[testing]
+trn_l <- data$credit[testing]
 
 train
-tl
+trn_l
 test
-tl
+tst_l
