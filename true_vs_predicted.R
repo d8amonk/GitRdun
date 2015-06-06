@@ -38,3 +38,6 @@ plot(x_4, y_2, pch = 22, col = 'blue')
 
 run2 <- lm(y_2 ~ x_4 + x_5 + x_6)
 run2
+
+vars <- list(x_1, x_2, x_3, x_4, x_5, x_6)
+pairs(vars)
